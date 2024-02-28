@@ -1,9 +1,9 @@
 import { View, Text } from "react-native";
 
-export default function Ingles() {
+export default function Filosofia() {
   return (
     <View>
-      <Text>Ingles</Text>
+      <Text>Filosofia</Text>
     </View>
   );
 }

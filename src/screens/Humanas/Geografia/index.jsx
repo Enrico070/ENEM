@@ -1,9 +1,9 @@
 import { View, Text } from "react-native";
 
-export default function Ingles() {
+export default function Geografia() {
   return (
     <View>
-      <Text>Ingles</Text>
+      <Text>Geografia</Text>
     </View>
   );
 }
