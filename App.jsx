@@ -90,7 +90,7 @@ export default function App() {
           name="Sobre"
           component={Sobre}
           options={{
-            title: "Sobre",
+            title: "Sobre mim",
             headerStyle: {
               backgroundColor: "#002147",
             },
@@ -106,7 +106,7 @@ export default function App() {
           name="Fisica"
           component={Fisica}
           options={{
-            title: "Fisica",
+            title: "Física",
             headerStyle: {
               backgroundColor: "#002147",
             },
@@ -121,7 +121,7 @@ export default function App() {
           name="Quimica"
           component={Quimica}
           options={{
-            title: "Quimica",
+            title: "Química",
             headerStyle: {
               backgroundColor: "#002147",
             },
@@ -136,7 +136,7 @@ export default function App() {
           name="Matematica"
           component={Matematica}
           options={{
-            title: "Matematica",
+            title: "Matemática",
             headerStyle: {
               backgroundColor: "#002147",
             },
@@ -166,7 +166,7 @@ export default function App() {
           name="Historia"
           component={Historia}
           options={{
-            title: "Historia",
+            title: "História",
             headerStyle: {
               backgroundColor: "#002147",
             },
@@ -211,7 +211,7 @@ export default function App() {
           name="Portugues"
           component={Portugues}
           options={{
-            title: "Portugues",
+            title: "Português",
             headerStyle: {
               backgroundColor: "#002147",
             },
@@ -226,7 +226,7 @@ export default function App() {
           name="Ingles"
           component={Ingles}
           options={{
-            title: "Ingles",
+            title: "Inglês",
             headerStyle: {
               backgroundColor: "#002147",
             },

@@ -15,19 +15,16 @@ export default function Home() {
         />
         <Text style={styles.textPrincipal}>Linguagens</Text>
         <Text style={styles.text}>
-          O Enem, é uma avaliação organizada pelo governo federal, a fim de
-          auxiliar estudantes a ingressarem de maneira mais fácil e simplificada
-          no ensino superior. Atualmente, ele é a principal maneira de
-          estudantes brasileiros conseguirem uma vaga na universidade, seja ela
-          pública ou privada. O exame possui uma relevância e importância tão
-          grande que já aceito até como processo avaliativo para instituições de
-          ensino superior de outros países, como em Portugal por exemplo.
+          A prova de linguagens, códigos e suas tecnologias avalia conhecimentos
+          sobre língua portuguesa, literatura e língua estrangeira. Também cobra
+          conteúdos de artes, educação física e tecnologias da informação e
+          comunicação.
         </Text>
 
         <Text style={styles.textCategorias}>Veja as matérias para estudo:</Text>
 
         <TouchableOpacity
-          style={styles.navButton}
+          style={styles.navButtonLinguagens}
           onPress={() => navigation.navigate("Artes")}
         >
           <Image
@@ -38,7 +35,7 @@ export default function Home() {
         </TouchableOpacity>
 
         <TouchableOpacity
-          style={styles.navButton}
+          style={styles.navButtonLinguagens}
           onPress={() => navigation.navigate("Portugues")}
         >
           <Image
@@ -48,7 +45,7 @@ export default function Home() {
           <Text style={styles.textCategoriasCard}>Português</Text>
         </TouchableOpacity>
         <TouchableOpacity
-          style={styles.navButton}
+          style={styles.navButtonLinguagens}
           onPress={() => navigation.navigate("Ingles")}
         >
           <Image

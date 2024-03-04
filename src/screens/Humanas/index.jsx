@@ -11,51 +11,49 @@ export default function Home() {
       <ScrollView style={styles.scroll}>
         <Image
           style={styles.imgPrincipal}
-          source={require("../../../assets/exatas.webp")}
+          source={require("../../../assets/Humanas.png")}
         />
-        <Text style={styles.textPrincipal}>Exatas</Text>
+        <Text style={styles.textPrincipal}>Humanas</Text>
         <Text style={styles.text}>
-          O Enem, é uma avaliação organizada pelo governo federal, a fim de
-          auxiliar estudantes a ingressarem de maneira mais fácil e simplificada
-          no ensino superior. Atualmente, ele é a principal maneira de
-          estudantes brasileiros conseguirem uma vaga na universidade, seja ela
-          pública ou privada. O exame possui uma relevância e importância tão
-          grande que já aceito até como processo avaliativo para instituições de
-          ensino superior de outros países, como em Portugal por exemplo.
+          Considerado um dos temas cobrados no Enem e em outros concursos,
+          Ciências Humanas e suas Tecnologias contemplam as disciplinas de
+          História, Geografia, Sociologia e Filosofia. E não é só isso! Essa
+          linha de estudos direciona ainda alguns dos cursos superiores mais
+          procurados do País.
         </Text>
 
         <Text style={styles.textCategorias}>Veja as matérias para estudo:</Text>
 
         <TouchableOpacity
-          style={styles.navButton}
-          onPress={() => navigation.navigate("Matematica")}
+          style={styles.navButtonHumanas}
+          onPress={() => navigation.navigate("Geografia")}
         >
           <Image
             style={styles.imgLinguagens}
-            source={require("../../../assets/math.webp")}
+            source={require("../../../assets/geo.jpeg")}
           />
-          <Text style={styles.textCategoriasCard}>Matemática</Text>
+          <Text style={styles.textCategoriasCard}>Geografia</Text>
         </TouchableOpacity>
 
         <TouchableOpacity
-          style={styles.navButton}
-          onPress={() => navigation.navigate("Fisica")}
+          style={styles.navButtonHumanas}
+          onPress={() => navigation.navigate("Filosofia")}
         >
           <Image
             style={styles.imgLinguagens}
-            source={require("../../../assets/fisica.webp")}
+            source={require("../../../assets/fil.png")}
           />
-          <Text style={styles.textCategoriasCard}>Física</Text>
+          <Text style={styles.textCategoriasCard}>Filosofia</Text>
         </TouchableOpacity>
         <TouchableOpacity
-          style={styles.navButton}
-          onPress={() => navigation.navigate("Quimica")}
+          style={styles.navButtonHumanas}
+          onPress={() => navigation.navigate("Historia")}
         >
           <Image
             style={styles.imgLinguagens}
-            source={require("../../../assets/quimica.jpg")}
+            source={require("../../../assets/historia.jpg")}
           />
-          <Text style={styles.textCategoriasCard}>Química</Text>
+          <Text style={styles.textCategoriasCard}>História</Text>
         </TouchableOpacity>
       </ScrollView>
     </View>

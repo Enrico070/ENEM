@@ -27,7 +27,7 @@ export default function Home() {
         <Text style={styles.textCategorias}>Veja as matérias para estudo:</Text>
 
         <TouchableOpacity
-          style={styles.navButton}
+          style={styles.navButtonLinguagens}
           onPress={() => navigation.navigate("Linguagens")}
         >
           <Image
@@ -38,7 +38,7 @@ export default function Home() {
         </TouchableOpacity>
 
         <TouchableOpacity
-          style={styles.navButton}
+          style={styles.navButtonExatas}
           onPress={() => navigation.navigate("Exatas")}
         >
           <Image
@@ -48,7 +48,7 @@ export default function Home() {
           <Text style={styles.textCategoriasCard}>Exatas</Text>
         </TouchableOpacity>
         <TouchableOpacity
-          style={styles.navButton}
+          style={styles.navButtonHumanas}
           onPress={() => navigation.navigate("Humanas")}
         >
           <Image
@@ -56,6 +56,17 @@ export default function Home() {
             source={require("../../../assets/Humanas.png")}
           />
           <Text style={styles.textCategoriasCard}>Humanas</Text>
+        </TouchableOpacity>
+        <Text style={styles.textSobre}>Veja um pouco sobre mim:</Text>
+        <TouchableOpacity
+          style={styles.navButton}
+          onPress={() => navigation.navigate("Sobre")}
+        >
+          <Image
+            style={styles.imgLinguagens}
+            source={require("../../../assets/ft.jpg")}
+          />
+          <Text style={styles.textCategoriasCard}>Sobre mim</Text>
         </TouchableOpacity>
       </ScrollView>
     </View>

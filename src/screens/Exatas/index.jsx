@@ -15,19 +15,20 @@ export default function Home() {
         />
         <Text style={styles.textPrincipal}>Exatas</Text>
         <Text style={styles.text}>
-          O Enem, é uma avaliação organizada pelo governo federal, a fim de
-          auxiliar estudantes a ingressarem de maneira mais fácil e simplificada
-          no ensino superior. Atualmente, ele é a principal maneira de
-          estudantes brasileiros conseguirem uma vaga na universidade, seja ela
-          pública ou privada. O exame possui uma relevância e importância tão
-          grande que já aceito até como processo avaliativo para instituições de
-          ensino superior de outros países, como em Portugal por exemplo.
+          As matérias de exatas compõem boa parte da prova do Enem e requerem
+          muito conhecimento e atenção por parte dos participantes. São as
+          matérias que estão relacionadas à matemática, cálculos e resolução de
+          problemas, utilizando a lógica. Com isso, é a área para quem gosta de
+          números, de resolver fórmulas e de testar hipóteses. As matérias de
+          exatas são Química, Física e Matemática, sendo que, no Enem, elas
+          estão nas áreas de Matemática e Suas Tecnologias e de Ciências da
+          Natureza e Suas Tecnologias — que engloba Química e Física.
         </Text>
 
         <Text style={styles.textCategorias}>Veja as matérias para estudo:</Text>
 
         <TouchableOpacity
-          style={styles.navButton}
+          style={styles.navButtonExatas}
           onPress={() => navigation.navigate("Matematica")}
         >
           <Image
@@ -38,7 +39,7 @@ export default function Home() {
         </TouchableOpacity>
 
         <TouchableOpacity
-          style={styles.navButton}
+          style={styles.navButtonExatas}
           onPress={() => navigation.navigate("Fisica")}
         >
           <Image
@@ -48,7 +49,7 @@ export default function Home() {
           <Text style={styles.textCategoriasCard}>Física</Text>
         </TouchableOpacity>
         <TouchableOpacity
-          style={styles.navButton}
+          style={styles.navButtonExatas}
           onPress={() => navigation.navigate("Quimica")}
         >
           <Image
