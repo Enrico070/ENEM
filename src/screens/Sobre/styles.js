@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     alignItems: "center",
     margin: "auto",
-    backgroundColor: "#002147",
+    backgroundColor: "#1cc916",
     color: "black",
   },
   imgPrincipal: {

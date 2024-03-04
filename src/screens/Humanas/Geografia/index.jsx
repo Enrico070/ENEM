@@ -27,7 +27,7 @@ export default function Home() {
           universidade. Confira nossa listagem e bons estudos!
         </Text>
         <TouchableOpacity
-          style={styles.navButton}
+          style={styles.navButtonHumanas}
           onPress={() => navigation.navigate("Home")}
         >
           <Image

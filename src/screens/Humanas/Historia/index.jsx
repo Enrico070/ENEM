@@ -27,7 +27,7 @@ export default function Home() {
           têm aparecido nos exames.
         </Text>
         <TouchableOpacity
-          style={styles.navButton}
+          style={styles.navButtonHumanas}
           onPress={() => navigation.navigate("Home")}
         >
           <Image

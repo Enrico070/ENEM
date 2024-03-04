@@ -7,6 +7,17 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
+  navButtonExatas: {
+    marginLeft: 12,
+    width: 390,
+    marginTop: 20,
+    padding: 20,
+    marginBottom: 10,
+    alignItems: "center",
+    margin: "auto",
+    backgroundColor: "#f0d807",
+    color: "black",
+  },
   navButton: {
     marginLeft: 12,
     width: 390,
@@ -37,6 +48,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     marginTop: -70,
     padding: 23,
+    textAlign: "center",
   },
   textCategorias: {
     fontSize: 20,

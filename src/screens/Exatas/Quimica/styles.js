@@ -18,6 +18,17 @@ const styles = StyleSheet.create({
     backgroundColor: "#002147",
     color: "black",
   },
+  navButtonExatas: {
+    marginLeft: 12,
+    width: 390,
+    marginTop: 20,
+    padding: 20,
+    marginBottom: 10,
+    alignItems: "center",
+    margin: "auto",
+    backgroundColor: "#f0d807",
+    color: "black",
+  },
   imgPrincipal: {
     width: 380,
     height: 210,
@@ -37,6 +48,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     marginTop: -70,
     padding: 23,
+    textAlign: "center",
   },
   textCategorias: {
     fontSize: 20,

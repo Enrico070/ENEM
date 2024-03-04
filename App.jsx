@@ -31,7 +31,7 @@ export default function App() {
           options={{
             title: "Tela Inicial",
             headerStyle: {
-              backgroundColor: "#002147",
+              backgroundColor: "#16a2c9",
             },
             headerTintColor: "#fff",
             headerTitleStyle: {
@@ -47,7 +47,7 @@ export default function App() {
             title: "Humanas",
 
             headerStyle: {
-              backgroundColor: "#002147",
+              backgroundColor: "#de1818",
             },
             headerTintColor: "#fff",
             headerTitleStyle: {
@@ -62,7 +62,7 @@ export default function App() {
           options={{
             title: "Exatas",
             headerStyle: {
-              backgroundColor: "#002147",
+              backgroundColor: "#f0d807",
             },
             headerTintColor: "#fff",
             headerTitleStyle: {
@@ -77,7 +77,7 @@ export default function App() {
           options={{
             title: "Linguagens",
             headerStyle: {
-              backgroundColor: "#002147",
+              backgroundColor: "#0f85d9",
             },
             headerTintColor: "#fff",
             headerTitleStyle: {
@@ -92,7 +92,7 @@ export default function App() {
           options={{
             title: "Sobre mim",
             headerStyle: {
-              backgroundColor: "#002147",
+              backgroundColor: "#1cc916",
             },
             headerTintColor: "#fff",
             headerTitleStyle: {
@@ -108,7 +108,7 @@ export default function App() {
           options={{
             title: "Física",
             headerStyle: {
-              backgroundColor: "#002147",
+              backgroundColor: "#f0d807",
             },
             headerTintColor: "#fff",
             headerTitleStyle: {
@@ -123,7 +123,7 @@ export default function App() {
           options={{
             title: "Química",
             headerStyle: {
-              backgroundColor: "#002147",
+              backgroundColor: "#f0d807",
             },
             headerTintColor: "#fff",
             headerTitleStyle: {
@@ -138,7 +138,7 @@ export default function App() {
           options={{
             title: "Matemática",
             headerStyle: {
-              backgroundColor: "#002147",
+              backgroundColor: "#f0d807",
             },
             headerTintColor: "#fff",
             headerTitleStyle: {
@@ -153,7 +153,7 @@ export default function App() {
           options={{
             title: "Geografia",
             headerStyle: {
-              backgroundColor: "#002147",
+              backgroundColor: "#de1818",
             },
             headerTintColor: "#fff",
             headerTitleStyle: {
@@ -168,7 +168,7 @@ export default function App() {
           options={{
             title: "História",
             headerStyle: {
-              backgroundColor: "#002147",
+              backgroundColor: "#de1818",
             },
             headerTintColor: "#fff",
             headerTitleStyle: {
@@ -183,7 +183,7 @@ export default function App() {
           options={{
             title: "Filosofia",
             headerStyle: {
-              backgroundColor: "#002147",
+              backgroundColor: "#de1818",
             },
             headerTintColor: "#fff",
             headerTitleStyle: {
@@ -198,7 +198,7 @@ export default function App() {
           options={{
             title: "Artes",
             headerStyle: {
-              backgroundColor: "#002147",
+              backgroundColor: "#0f85d9",
             },
             headerTintColor: "#fff",
             headerTitleStyle: {
@@ -213,7 +213,7 @@ export default function App() {
           options={{
             title: "Português",
             headerStyle: {
-              backgroundColor: "#002147",
+              backgroundColor: "#0f85d9",
             },
             headerTintColor: "#fff",
             headerTitleStyle: {
@@ -228,7 +228,7 @@ export default function App() {
           options={{
             title: "Inglês",
             headerStyle: {
-              backgroundColor: "#002147",
+              backgroundColor: "#0f85d9",
             },
             headerTintColor: "#fff",
             headerTitleStyle: {

@@ -22,7 +22,7 @@ export default function Home() {
           — textos sincréticos.
         </Text>
         <TouchableOpacity
-          style={styles.navButton}
+          style={styles.navButtonLinguagens}
           onPress={() => navigation.navigate("Home")}
         >
           <Image

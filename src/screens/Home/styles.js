@@ -40,6 +40,17 @@ const styles = StyleSheet.create({
     backgroundColor: "#de1818",
     color: "black",
   },
+  navButtonSobre: {
+    marginLeft: 12,
+    width: 390,
+    marginTop: 20,
+    padding: 20,
+    marginBottom: 10,
+    alignItems: "center",
+    margin: "auto",
+    backgroundColor: "#1cc916",
+    color: "black",
+  },
   navButtonLinguagens: {
     marginLeft: 12,
     width: 390,

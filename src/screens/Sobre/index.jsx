@@ -15,16 +15,15 @@ export default function Home() {
         />
         <Text style={styles.textPrincipal}>Sobre mim</Text>
         <Text style={styles.text}>
-          O foco principal das provas de História do Exame Nacional do Ensino
-          Médio (Enem) é o Brasil. A disciplina aparece dentro das "Ciências
-          Humanas e suas Tecnologias" que englobam Geografia, Sociologia,
-          Filosofia e Artes. Portanto, o que você aprender na aula de Sociologia
-          vai servir para responder uma questão de História e vice-versa. Apesar
-          do Brasil ser o tema mais cobrado, não convém esquecer-se de revisar
-          temas como Revolução Francesa, Revolução Industrial, ideologias como o
-          fascismo e o comunismo, pois também costumam cair no Enem. Igualmente,
-          tópicos de História da África bem como de história e historiografia
-          têm aparecido nos exames.
+          Sou Enrico de Amorim Lona, desenvolvedor de sistemas e idealizador
+          desse app. Curso DS pelo SENAI e conjuntamente estudo no terceiro ano
+          do SESI, fazendo também atividades de vôlei, futebol, música e
+          corriqueiramente pesca. Tive a ideia de um app mais interativo, então
+          utilizei esse jogo de cores. Esse app é um exemplo e uma
+          personificação de como seria um app sobre o Enem, dessa forma os
+          conteúdos integrados as páginas não contém informações totalmente
+          completas, sendo só observações resumidas, ainda sim, dentro do
+          contexto apresentado.
         </Text>
         <TouchableOpacity
           style={styles.navButton}

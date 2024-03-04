@@ -39,6 +39,17 @@ const styles = StyleSheet.create({
     padding: 23,
     textAlign: "center",
   },
+  navButtonHumanas: {
+    marginLeft: 12,
+    width: 390,
+    marginTop: 20,
+    padding: 20,
+    marginBottom: 10,
+    alignItems: "center",
+    margin: "auto",
+    backgroundColor: "#de1818",
+    color: "black",
+  },
   textCategorias: {
     fontSize: 20,
     marginBottom: 70,

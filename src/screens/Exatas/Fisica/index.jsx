@@ -22,7 +22,7 @@ export default function Home() {
           perca no meio de tanto conteúdo para assimilar.
         </Text>
         <TouchableOpacity
-          style={styles.navButton}
+          style={styles.navButtonExatas}
           onPress={() => navigation.navigate("Home")}
         >
           <Image

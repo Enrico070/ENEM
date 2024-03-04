@@ -23,7 +23,7 @@ export default function Home() {
           português são as mais numerosas, representando cerca de 60% da prova.
         </Text>
         <TouchableOpacity
-          style={styles.navButton}
+          style={styles.navButtonLinguagens}
           onPress={() => navigation.navigate("Home")}
         >
           <Image

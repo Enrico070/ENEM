@@ -59,7 +59,7 @@ export default function Home() {
         </TouchableOpacity>
         <Text style={styles.textSobre}>Veja um pouco sobre mim:</Text>
         <TouchableOpacity
-          style={styles.navButton}
+          style={styles.navButtonSobre}
           onPress={() => navigation.navigate("Sobre")}
         >
           <Image

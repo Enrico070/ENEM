@@ -27,7 +27,7 @@ export default function Home() {
           Filosofia Moderna Filosofia Contemporânea
         </Text>
         <TouchableOpacity
-          style={styles.navButton}
+          style={styles.navButtonHumanas}
           onPress={() => navigation.navigate("Home")}
         >
           <Image

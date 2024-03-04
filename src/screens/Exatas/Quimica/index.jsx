@@ -25,7 +25,7 @@ export default function Home() {
           assuntos do cotidiano.
         </Text>
         <TouchableOpacity
-          style={styles.navButton}
+          style={styles.navButtonExatas}
           onPress={() => navigation.navigate("Home")}
         >
           <Image

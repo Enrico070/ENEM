@@ -25,7 +25,7 @@ export default function Home() {
           aspectos sociais e econômicos.
         </Text>
         <TouchableOpacity
-          style={styles.navButton}
+          style={styles.navButtonLinguagens}
           onPress={() => navigation.navigate("Home")}
         >
           <Image
